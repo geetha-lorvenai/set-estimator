@@ -198,7 +198,6 @@ backend/
   tests/             parser, calculator and API tests
 frontend/            Next.js 15 (App Router) UI
 docker-compose.yml   optional full stack with PostgreSQL
-chat-history/        Claude chat export
 ```
 
 ## Configuration
@@ -211,7 +210,4 @@ chat-history/        Claude chat export
 | `MAX_INPUT_CHARS` | `2000` | |
 | `NEXT_PUBLIC_API_URL` (frontend) | `http://localhost:8000` | |
 
-## Next steps for production
 
-Alembic migrations instead of `create_all`, authentication, rate limiting, and moving the catalogue into the
-database so rates can change without a deploy.
